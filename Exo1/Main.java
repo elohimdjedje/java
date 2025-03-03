@@ -1,27 +1,33 @@
-package EXO1;
+package Exo1;
+
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        Voiture voiture = new Voiture();
 
-        System.out.println("Entrez la couleur de la voiture");
-        String couleur = sc.nextLine();
+        System.out.print("Entrez la couleur de la voiture : ");
+        String couleur = scanner.nextLine();
         boolean found = false;
-        
-        Voiture v = new Voiture();
 
-        for (String color : v.AutorizedColor){
-            if(color.equals(couleur)) {
-                v.couleur = color;
+        for(String color : voiture.couleurAutorized) {
+            if (color.equals(couleur)) {
+                voiture.couleur = color;
                 found = true;
                 break;
             }
-            
         }
-        if (found) {
 
-            System.out.println("erreur dans la saisie de la couleur");
+        if (found) {
+            System.out.println("Erreur dans la saisie de la couleur !");
             System.exit(1);
         }
+
+        voiture.marque = "Toyota";
+        voiture.modele = "corolla";
+        scanner.close();
+
+        voiture.demarrer();
     }
 }
