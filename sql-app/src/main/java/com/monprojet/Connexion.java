@@ -7,9 +7,9 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Connexion {
-    String url = "jdbc:mysql://localhost:3306/mabasegr1";
+    String url = "jdbc:mysql://localhost:3306/mabase";
     String utilisateur = "root";
-    String motDePasse = "root";
+    String motDePasse = "";
     Connection connexion = null;
 
     public Connexion() {
