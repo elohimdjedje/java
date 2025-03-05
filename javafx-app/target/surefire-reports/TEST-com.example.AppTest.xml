@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.045" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\test-classes;C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\classes;C:\Users\Elohim Mickael\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;"/>
+    <property name="java.class.path" value="C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\test-classes;C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\classes;C:\Users\Elohim Mickael\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20-win.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Elohim Mickael\AppData\Local\Temp\surefire12426522754349133741\surefirebooter-20250305111733059_3.jar C:\Users\Elohim Mickael\AppData\Local\Temp\surefire12426522754349133741 2025-03-05T11-17-32_929-jvmRun1 surefire-20250305111733059_1tmp surefire_0-20250305111733059_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Elohim Mickael\AppData\Local\Temp\surefire2632244455572737284\surefirebooter-20250305114315150_3.jar C:\Users\Elohim Mickael\AppData\Local\Temp\surefire2632244455572737284 2025-03-05T11-43-14_998-jvmRun1 surefire-20250305114315150_1tmp surefire_0-20250305114315150_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\test-classes;C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\classes;C:\Users\Elohim Mickael\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\test-classes;C:\Users\Elohim Mickael\Desktop\java\javafx-app\target\classes;C:\Users\Elohim Mickael\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-controls\20\javafx-controls-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-graphics\20\javafx-graphics-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-base\20\javafx-base-20-win.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20.jar;C:\Users\Elohim Mickael\.m2\repository\org\openjfx\javafx-fxml\20\javafx-fxml-20-win.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Elohim Mickael"/>
     <property name="user.language" value="fr"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Elohim Mickael\AppData\Local\Temp\surefire12426522754349133741\surefirebooter-20250305111733059_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Elohim Mickael\AppData\Local\Temp\surefire2632244455572737284\surefirebooter-20250305114315150_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testApp" classname="com.example.AppTest" time="0.005"/>
+  <testcase name="testApp" classname="com.example.AppTest" time="0.004"/>
 </testsuite>
