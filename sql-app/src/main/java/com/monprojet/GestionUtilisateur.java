@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class GestionUtilisateur {
     private ArrayList<Utilisateur> listUser = new ArrayList<>();
 
+    // Méthode pour ajouter un utilisateur
     public void add(Connexion connect, Scanner sc) {
         sc.nextLine();
         System.out.println("Nom de l'utilisateur");
@@ -22,7 +23,7 @@ public class GestionUtilisateur {
 
         try {
             String sqlInsert = "INSERT INTO utilisateurs (prenom, nom, email) VALUES (?, ?, ?)";
-            PreparedStatement pstmtInsert = connect.connexion.prepareStatement(sqlInsert);
+            PreparedStatement pstmtInsert = connect.getConnection().prepareStatement(sqlInsert);
             pstmtInsert.setString(1, firstName);
             pstmtInsert.setString(2, lastName);
             pstmtInsert.setString(3, email);
@@ -34,10 +35,11 @@ public class GestionUtilisateur {
         }
     }
 
+    // Méthode pour charger les utilisateurs depuis la base de données
     public void loadUsers(Connexion connect) {
         try {
             String sqlSelect = "SELECT id, nom, prenom, email FROM utilisateurs";
-            PreparedStatement pstmtSelect = connect.connexion.prepareStatement(sqlSelect);
+            PreparedStatement pstmtSelect = connect.getConnection().prepareStatement(sqlSelect);
             ResultSet rs = pstmtSelect.executeQuery();
 
             listUser.clear(); // Vide la liste avant de la remplir
@@ -56,6 +58,7 @@ public class GestionUtilisateur {
         }
     }
 
+    // Méthode pour lister les utilisateurs
     public void listUsers() {
         if (listUser.isEmpty()) {
             System.out.println("Aucun utilisateur trouvé.");
@@ -66,11 +69,11 @@ public class GestionUtilisateur {
         }
     }
 
-    // Nouvelle méthode pour supprimer un utilisateur par son ID
+    // Méthode pour supprimer un utilisateur par son ID
     public void deleteUserById(Connexion connect, int id) {
         try {
             String sqlDelete = "DELETE FROM utilisateurs WHERE id = ?";
-            PreparedStatement pstmtDelete = connect.connexion.prepareStatement(sqlDelete);
+            PreparedStatement pstmtDelete = connect.getConnection().prepareStatement(sqlDelete);
             pstmtDelete.setInt(1, id);
 
             int rowsAffected = pstmtDelete.executeUpdate();
