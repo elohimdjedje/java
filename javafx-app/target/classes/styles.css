@@ -1,3 +1,7 @@
+.root {
+    -fx-background-color: #f4f4f4; /* Couleur de fond */
+    -fx-font-family: 'Arial';
+}
 .label {
     -fx-text-fill: #ff0000; /* Couleur du texte */
 }
