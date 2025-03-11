@@ -1,1 +1,6 @@
+com\example\GestionUtilisateur.class
 com\example\App.class
+com\example\Connexion.class
+com\example\FormulaireController.class
+com\example\Controller.class
+com\example\Utilisateur.class
